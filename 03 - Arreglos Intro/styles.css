@@ -1,0 +1,57 @@
+body {
+    /*background-color: antiquewhite;*/
+    background-image: url('gif_fondo.gif');
+    font-size: larger;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filtros input {
+    padding: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.filtros button {
+    padding: 5px 10px;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(35, 126, 201);
+    color: white;
+}
+
+.filtros button:hover {
+    background-color: rgb(6, 71, 212);
+}
+
+.filtros select {
+    padding: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+    width: 30%;
+    list-style: none;
+    text-align: center;
+    border-radius: 8px;
+}

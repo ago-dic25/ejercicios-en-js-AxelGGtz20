@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arreglos intro</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <div class = "filtros">
+    <input type="text" id ="filtroAlumno">
+    <button>Realizar consulta</button>
+    <select id="ordenAlumnos">
+      <option value="asc">Apellido A-Z</option>
+      <option value="desc">Apellido Z-A</option>
+    </select>
+  </div>
+  <div class ="resultado">
+    <ul id ="listaAlumnos">
+    </ul>
+  </div> 
+  <script src="index.js"></script>
 </body>
 </html>
